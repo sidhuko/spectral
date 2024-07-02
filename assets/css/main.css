@@ -4093,21 +4093,21 @@ body.landing #page-wrapper {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -4129,21 +4129,21 @@ body.landing #banner {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: -webkit-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: -ms-linear-gradient(
       top,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/tidal.jpg");
+    url("../img/tidal.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
