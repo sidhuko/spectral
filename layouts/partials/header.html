@@ -16,6 +16,20 @@
   <meta name="description" content="{{ . | plainify }}" />
   {{ end }} {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}" />
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-QWJ96X8XWJ"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-QWJ96X8XWJ");
+  </script>
   {{ end }} {{ range .AlternativeOutputFormats -}} {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}} {{
